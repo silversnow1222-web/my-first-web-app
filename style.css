@@ -483,7 +483,7 @@ section{
             gap: clamp(1rem,2vw,3rem);
             justify-content: center;
             align-items: center;
-            background: linear-gradient(-150deg,var(--basecolor),rgba(218, 218, 218, 0.3));
+            background: linear-gradient(-150deg,var(--basecolor),rgba(218, 218, 218, 0.555));
             box-sizing: border-box;
 
 
@@ -610,8 +610,8 @@ footer{
             grid-template-rows: 150px 150px 150px;
             grid-template-areas: 
                 "A B"
-                "C E"
-                "D D"
+                "C D"
+                "E E"
             ;
 
             div{
@@ -647,5 +647,15 @@ footer{
                 height: 75%;
             }
         }
+    
+    main #maincenter #Todo{
+        width: 100%;
+
+        img{
+            width: 30%;
+            top: clamp(-60%,5vw,-45%);
+            right: -8%;
+        }
+    }
 }
 
