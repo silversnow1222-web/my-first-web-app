@@ -44,7 +44,7 @@ $(function(){
             let windowHeight = $(window).height();
 
             if(scroll > elemPos - windowHeight){
-                $(this).stop().css('transform','translateX(-30px)');
+                $(this).stop().css('transform','translateX(-5px)');
             } else{
                 $(this).stop().css('transform','translateX(-1700px)');   
             }     
@@ -56,7 +56,7 @@ $(function(){
             let windowHeight = $(window).height();
 
             if(scroll > elemPos - windowHeight){
-                $(this).stop().css('transform','translateX(30px)');
+                $(this).stop().css('transform','translateX(5px)');
             } else{
                 $(this).stop().css('transform','translateX(1700px)');   
             }
